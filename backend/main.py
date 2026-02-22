@@ -1,13 +1,16 @@
 from fastapi import FastAPI, Header, HTTPException
-from langchain.agents import initialize_agent, Tool
-from langchain.agents import AgentType
-from langchain_openai import ChatOpenAI
+from threat_intel import ThreatIntelModule
 
 app = FastAPI()
+intel = ThreatIntelModule()
 
 @app.get("/")
 def read_root():
     return {"message": "Autonomous Sec Agent API"}
+
+@app.get("/threat-intel")
+def get_intel(keyword: str = "kubernetes"):
+    return {"latest_cves": intel.fetch_latest_cves(keyword)}
 
 @app.post("/scan")
 def start_scan(repo_url: str, x_asset_svid: str = Header(None)):

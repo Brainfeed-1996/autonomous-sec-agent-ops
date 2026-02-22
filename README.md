@@ -12,6 +12,11 @@ Part of the [Industrial Portfolio 2026](https://github.com/Brainfeed-1996/indust
 - **Verification Engine**: Automated testing of proposed security fixes.
 - **Web Dashboard**: Real-time visibility into agent activities.
 
+## Deployment
+Configured for high-security cloud environments.
+- **Agent Portal:** [https://sec-agent.brainfeed.tech](https://sec-agent.brainfeed.tech)
+- **Vercel Frontend:** [https://sec-agent-dashboard.vercel.app](https://sec-agent-dashboard.vercel.app)
+
 ## SRE/Monitoring
 - Agent performance metrics (tokens used, success rate).
 - Health checks for the backend and verification engine.
