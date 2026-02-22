@@ -4,7 +4,8 @@
 [![LangChain](https://img.shields.io/badge/AI-LangChain-121212.svg)](https://langchain.com)
 [![DevSecOps](https://img.shields.io/badge/Role-DevSecOps-blueviolet.svg)]()
 
-An AI-powered platform (LangChain/AutoGPT style) that monitors GitHub repositories for vulnerabilities and automatically opens Pull Requests with security fixes.
+---
+Part of the [Industrial Portfolio 2026](https://github.com/Brainfeed-1996/industrial-portfolio-2026) ecosystem.
 
 ## Architecture
 - **Agentic Core**: LangChain-based agents for vulnerability scanning and remediation.
