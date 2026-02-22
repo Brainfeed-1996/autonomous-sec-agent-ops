@@ -1,0 +1,8 @@
+{
+  "name": "autonomous-sec-agent-ops-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p build && cp index.html build/ || echo 'No index.html found'"
+  }
+}
