@@ -1,6 +1,6 @@
 # 🤖 Autonomous Security Agent Ops
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://sec-agent-dashboard.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://sec-agent.brainfeed.tech)
 [![Python](https://img.shields.io/badge/Language-Python-3776AB.svg)](https://www.python.org)
 [![LangChain](https://img.shields.io/badge/AI-LangChain-121212.svg)](https://langchain.com)
 [![DevSecOps](https://img.shields.io/badge/Role-DevSecOps-blueviolet.svg)]()
@@ -16,7 +16,6 @@ Part of the [Industrial Portfolio 2026](https://github.com/Brainfeed-1996/indust
 ## Deployment
 Configured for high-security cloud environments.
 - **Agent Portal:** [https://sec-agent.brainfeed.tech](https://sec-agent.brainfeed.tech)
-- **Vercel Frontend:** [https://sec-agent-dashboard.vercel.app](https://sec-agent-dashboard.vercel.app)
 
 ## SRE/Monitoring
 - Agent performance metrics (tokens used, success rate).
